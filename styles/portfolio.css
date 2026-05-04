@@ -8,122 +8,193 @@
 
  /* shared style */
  .secondary-bg {
-    background-color: #FFF8F3;
+     background-color: #FFF8F3;
 
  }
+
  .text-primary {
      color: #FD6E0A
  }
-.dark-2{
-    color: #474747;
-}
-.btn-primary{
-    font-weight: bold;
-    font-size: 20px;
-    color: #FFFFFF;
-    padding: 18px 35px;
-    border-radius: 5px;
-    background-color: #FD6E0A;
-    border: none;
-}
-.header{
-    background-image: url('../images/developer.png'), url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-}
+
+ .dark-2 {
+     color: #474747;
+ }
+
+ .btn-primary {
+     font-weight: bold;
+     font-size: 20px;
+     color: #FFFFFF;
+     padding: 18px 35px;
+     border-radius: 5px;
+     background-color: #FD6E0A;
+     border: none;
+     text-decoration: none;
+ }
+
+ .header {
+     background-image: url('../images/developer.png'), url(../images/header_bg.png);
+     background-repeat: no-repeat;
+     background-position: top left, bottom right;
+ }
+
  /* nav styles */
  nav {
      display: flex;
      align-items: center;
      justify-content: space-between;
+     max-width: 80%;
+     margin: 0 auto;
  }
 
  .nav-title {
      font-weight: 800;
      font-size: 45px;
  }
-nav ul{
-    display: flex;
-    align-items: center;
-}
+
+ nav ul {
+     display: flex;
+     align-items: center;
+ }
+
  nav ul li {
      list-style: none;
      margin-right: 51px;
  }
- nav li a{
-    text-decoration: none;
-    font-size: 20px;
+
+ nav li a {
+     text-decoration: none;
+     font-size: 20px;
  }
+
  /* banner styles */
- .banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 35px 0 200px;
+ .banner {
+     display: flex;
+     justify-content: space-between;
+     margin: 0 35px 0 200px;
  }
- .banner-content{
-    max-width: 585px;
-    max-height: 356px;
+
+ .banner-content {
+     max-width: 585px;
+     max-height: 356px;
  }
- .banner-greetings{
-    font-size: 45px;
-    font-weight: 600;
+
+ .banner-greetings {
+     font-size: 45px;
+     font-weight: 600;
  }
- .banner-title{
-    font-size: 85px;
-    font-weight: bold;
+
+ .banner-title {
+     font-size: 85px;
+     font-weight: bold;
  }
- .banner-description{
-    font-size: 18px;
-    font-weight: normal;
+
+ .banner-description {
+     font-size: 18px;
+     font-weight: normal;
  }
- .banner-profile-picture{
-    width: 584px;
-    height: 676px;
+
+ .banner-profile-picture {
+     width: 584px;
+     height: 676px;
  }
+
  /* main-styles */
- main{
-    max-width: 1140px;
-    margin: 0 auto;
+ main {
+     max-width: 1140px;
+     margin: 0 auto;
  }
- main section{
-    margin-top: 130px;
-    margin-bottom: 130px;
+
+ main section {
+     margin-top: 130px;
+     margin-bottom: 130px;
  }
+
  /* about-styles */
- .about{
-    border-radius: 10px;
-    padding: 130px 156px;
-    margin-top: 130px;
+ .about {
+     border-radius: 10px;
+     padding: 130px 156px;
+     margin-top: 130px;
  }
- .about-items{
-    display: flex;
-    justify-content: space-around;
+
+ .about-items {
+     display: flex;
+     justify-content: space-around;
  }
- .item-info{
-    font-weight: 600;
+
+ .item-info {
+     font-weight: 600;
  }
- .item-name{
-    text-align: center;
+
+ .item-name {
+     text-align: center;
  }
- .section-title{
-    font-weight: bold;
-    font-size: 35px;
-    color: #181818;
+
+ .section-title {
+     font-weight: bold;
+     font-size: 35px;
+     color: #181818;
  }
- .section-description{
-    font-size: 18px;
-    color: #757575;
+
+ .section-description {
+     font-size: 18px;
+     color: #757575;
  }
- .text-center{
-    text-align: center;
+
+ .text-center {
+     text-align: center;
  }
+
  /* skills section styles */
- .skills-container{
-    display: flex;
-    gap: 24px;
+ .skills-container {
+     display: flex;
+     gap: 24px;
  }
- .skill{
-    padding: 30px;
+
+ .skill {
+     padding: 30px;
+     border-radius: 5px;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+ }
+
+ /* resume-styles */
+ .resume-container {
+     display: flex;
+ }
+
+ .experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+ }
+ .resume hr{
+    margin: 30px 5px;
+ }
+
+ .section-title {
+     text-align: center;
+     gap: 24px;
+ }
+ .resume-download-CV{
+    margin-top: 50px;
+ }
+ /* footer-style */
+ footer {
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+ footer input, textarea{
+    height: 64px;
+    width: 100%;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    color: #757575;
+    margin-bottom: 24px;
+    display: block;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
  }
