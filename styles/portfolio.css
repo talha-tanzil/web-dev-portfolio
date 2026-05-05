@@ -30,7 +30,10 @@
      border: none;
      text-decoration: none;
  }
-
+.btn-primary>a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
  .header {
      background-image: url('../images/developer.png'), url(../images/header_bg.png);
      background-repeat: no-repeat;
